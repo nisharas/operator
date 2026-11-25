@@ -51,7 +51,6 @@ spec:
     spec:
       restartPolicy: OnFailure
       serviceAccountName: stsclient-sa
-      serviceAccount: stsclient-sa
       containers:
         - name: sts-client
           image: miniodev/operator-sts-example:minio-sdk-go
